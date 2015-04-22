@@ -50,8 +50,37 @@ fi
 
 bot "installing Springload Tools™"
 
-read -r -p "install the everyday tools? (Browsers, Slack, etc) [y|N] " response
-if [[ $response =~ ^(y|yes|Y) ]];then
+read -r -p "install the everyday tools? (Browsers, Slack, etc) [y|N] " everydayresponse
+if [[ $everydayresponse =~ ^(y|yes|Y) ]];then
+    ok "will install everyday tools."
+else
+    ok "will skip everyday tools.";
+fi
+
+read -r -p "install the designer tools? (Dropbox, Sketch, etc) [y|N] " designerresponse
+if [[ $designerresponse =~ ^(y|yes|Y) ]];then
+    ok "will install designer tools."
+else
+    ok "will skip designer tools.";
+fi
+
+read -r -p "install the developer tools? (iTerm2, Sublime Text, etc) [y|N] " developerresponse
+if [[ $developerresponse =~ ^(y|yes|Y) ]];then
+    ok "will install developer tools."
+else
+    ok "will skip developer tools.";
+fi
+
+read -r -p "install the Quicklook plugins? [y|N] " quicklookresponse
+if [[ $quicklookresponse =~ ^(y|yes|Y) ]];then
+    ok "will install Quicklook plugins."
+else
+    ok "will skip Quicklook plugins.";
+fi
+
+bot "Let's go! You can probably take a walk..."
+
+if [[ $everydayresponse =~ ^(y|yes|Y) ]];then
     action "install brew cask packages..."
 
     require_cask firefox
@@ -73,9 +102,7 @@ else
     ok "skipped everyday tools.";
 fi
 
-
-read -r -p "install the designer tools? (Dropbox, Sketch, etc) [y|N] " response
-if [[ $response =~ ^(y|yes|Y) ]];then
+if [[ $designerresponse =~ ^(y|yes|Y) ]];then
 
     action "install brew cask packages..."
 
@@ -85,12 +112,10 @@ if [[ $response =~ ^(y|yes|Y) ]];then
 
     ok "casks installed..."
 else
-    ok "skipped developer tools.";
+    ok "skipped designer tools.";
 fi
 
-
-read -r -p "install the developer tools? (iTerm2, Sublime Text, etc) [y|N] " response
-if [[ $response =~ ^(y|yes|Y) ]];then
+if [[ $developerresponse =~ ^(y|yes|Y) ]];then
 
     action "install brew cask packages..."
 
@@ -113,8 +138,7 @@ else
     ok "skipped developer tools.";
 fi
 
-read -r -p "install the Quicklook plugins? [y|N] " response
-if [[ $response =~ ^(y|yes|Y) ]];then
+if [[ $quicklookresponse =~ ^(y|yes|Y) ]];then
 
     action "install brew cask packages..."
 
