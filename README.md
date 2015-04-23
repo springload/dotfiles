@@ -92,6 +92,10 @@ Have a look at:
 
 Have a look at https://github.com/robbyrussell/oh-my-zsh, then grab the Solarized Dark terminal themes from https://github.com/mathiasbynens/dotfiles/tree/master/init.
 
+#### Dotfiles
+
+The `dotfiles` subfolder contains configuration for all things CLI. Those very opinionated defaults come from https://github.com/mathiasbynens/dotfiles. Have a look, peek around, use what you like.
+
 #### IE VMs
 
 We use[IE test VMs](http://www.modern.ie/en-us/virtualization-tools) images are for [VirtualBox](https://www.virtualbox.org/).
@@ -146,6 +150,7 @@ shellcheck *.sh
 
 ## Credits
 
+- Actual dotfiles from https://github.com/mathiasbynens/dotfiles
 - Dotfiles lib from https://github.com/atomantic/dotfiles
 - ASCII Art from https://github.com/xero/dotfiles
 - ASCII faces from https://github.com/maxogden/cool-ascii-faces
