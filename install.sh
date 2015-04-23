@@ -1,12 +1,46 @@
 #!/usr/bin/env bash
 
+echo -en "Preparing world domination...\n"
+
 # Include Adam Eivy's library helpers.
 source ./lib.sh
 
-# make a backup directory for overwritten dotfiles
-if [[ ! -e ~/.dotfiles_backup ]]; then
-    mkdir ~/.dotfiles_backup
+#####
+# Introduction
+#####
+
+awesome_header
+
+fullname=$(osascript -e "long user name of (system info)")
+
+bot "Hi $fullname. I'm going to make your OSX system better. We're going to:"
+action "install Xcode's command line tools"
+action "install Homebrew and brew cask"
+action "install all the apps that are used at Springload"
+action "if you feel like it, we will also install more things"
+
+read -r -p "Let's go? [y|N] " response
+if [[ $response =~ ^(y|yes|Y) ]];then
+    ok
+else
+    exit -1
 fi
+
+#####
+# install Xcode command line tools
+#####
+
+running "checking Xcode CLI install"
+xcode_select="xcode-select --print-path"
+xcode_install=$($xcode_select) 2>&1 > /dev/null
+if [[ $? != 0 ]]; then
+    xcode-select --install
+    if [[ $? != 0 ]]; then
+        error "unable to install Xcode command line tools, script $0 abort!"
+        exit -1
+    fi
+fi
+ok
 
 bot "OK, let's roll..."
 
