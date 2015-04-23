@@ -49,7 +49,13 @@ Requires `brew`. The first group of tools contains `node`, `ruby` & `python` whi
 
 ```bash
 ./cli.sh
+# While you're at it, set up your sites/ directory
+mkdir -p ~/Development/sites/aliases
 ```
+
+While you're waiting for this to finish, go [generate your SSH keys](https://help.github.com/articles/generating-ssh-keys/).
+
+After that, head over to http://brewformulas.org/ to find other things that you might like!
 
 #### Fonts
 
@@ -58,6 +64,10 @@ Requires `brew`. The first group of tools contains `node`, `ruby` & `python` whi
 ```bash
 ./fonts.sh
 ```
+
+#### OSX Preferences
+
+You can set OSX preferences by using [osx-for-hackers.sh](https://gist.github.com/brandonb927/3195465). Beware, this can be dangerous!
 
 #### Apps configuration
 
@@ -69,9 +79,7 @@ Requires `brew`. The first group of tools contains `node`, `ruby` & `python` whi
 
 ... so that you can forget about reconfiguring everything. Give it a look.
 
-#### OSX Preferences
-
-You can set OSX preferences by using [osx-for-hackers.sh](https://gist.github.com/brandonb927/3195465). Beware, this can be dangerous!
+If you use Sublime Text, you'll want to install [Package Control](https://packagecontrol.io/).
 
 #### Alfred workflows (requires Powerpack)
 
@@ -79,6 +87,10 @@ Have a look at:
 
 - https://github.com/zenorocha/alfred-workflows
 - https://github.com/willfarrell/alfred-workflows
+
+#### Shell pimping
+
+Have a look at https://github.com/robbyrussell/oh-my-zsh, then grab the Solarized Dark terminal themes from https://github.com/mathiasbynens/dotfiles/tree/master/init.
 
 ## Automated Installation on Windows `(¬_¬)`
 

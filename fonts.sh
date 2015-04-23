@@ -17,7 +17,6 @@ require_cask font-fontawesome
 require_cask font-inconsolata
 require_cask font-open-sans
 require_cask font-pt-sans
-require_cask font-roboto
 require_cask font-source-code-pro
 require_cask font-source-sans-pro
 require_cask font-ubuntu

@@ -32,7 +32,7 @@ if [[ $commandlineresponse =~ ^(y|yes|Y) ]];then
     require_brew bash
     require_brew bash-completion
     require_brew zsh
-    require_brew zsh-completion
+    require_brew zsh-completions
 
     require_brew git
     require_brew git-extras
