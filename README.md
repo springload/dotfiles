@@ -19,7 +19,31 @@
 
 ## Setting up your new Mac `(◕‿◕)`
 
->The goal is to automate 80% of the setup of your new computer.
+>The goal is to automate __80%__ of the setup of your new computer.
+
+1. Download a ZIP of this repo. The button should on the right `------------->`
+3. Unzip and put the dotfiles repository into `/Users/<Your home directory>/`
+4. Launch the Terminal app, found in `/Applications/Utilities/`
+5. Run the following commands:
+
+```bash
+# First
+cd ~/dotfiles
+# Then
+./install.sh
+```
+
+This will automatically install a bunch of apps for you. You will get to choose what you want to install, and what you do not want.
+
+When it's done, you can:
+
+- Delete the `dotfiles` folder and forget about this
+- Head over to http://caskroom.io to look for apps that might interest you, and install them with `brew cask install <name of cask>`
+- Install other things:
+
+```bash
+TODO
+```
 
 ## Automated Installation on Windows `(¬_¬)`
 
