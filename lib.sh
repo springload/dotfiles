@@ -89,7 +89,13 @@ function require_gem() {
     ok
 }
 
-npmlist=`npm list -g`
+npm_bin=$(which npm) 2>&1 > /dev/null
+if [[ $? != 0 ]]; then
+    npmlist=$(npm list -g)
+else
+    npmlist=""
+fi
+
 function require_npm() {
     running "npm $1"
     echo $npmlist | grep $1@ > /dev/null

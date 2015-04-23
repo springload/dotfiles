@@ -23,7 +23,7 @@ read -r -p "Let's go? [y|N] " response
 if [[ $response =~ ^(y|yes|Y) ]];then
     ok
 else
-    exit -1
+    exit -1;
 fi
 
 #####
@@ -70,7 +70,6 @@ if [[ $? != 0 ]]; then
     action "installing brew-cask"
     require_brew caskroom/cask/brew-cask
 fi
-ok
 
 # Make sure we’re using the latest Homebrew
 running "updating homebrew"
