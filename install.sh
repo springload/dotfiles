@@ -74,6 +74,7 @@ fi
 # Make sure we’re using the latest Homebrew
 running "updating homebrew"
 brew update
+brew tap homebrew/versions
 
 bot "before installing brew packages, we can upgrade any outdated packages."
 read -r -p "run brew upgrade? [y|N] " response
