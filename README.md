@@ -52,7 +52,7 @@ When it's done, you can:
 
 #### OSX Preferences
 
-You can set OSX preferences by running `./osx-for-hackers.sh`. Beware, this can be dangerous!
+You can set OSX preferences by using [osx-for-hackers.sh](https://gist.github.com/brandonb927/3195465). Beware, this can be dangerous!
 
 #### Alfred workflows (requires Powerpack)
 
@@ -103,7 +103,6 @@ shellcheck *.sh
 
 ## Credits
 
-- osx-for-hackers.sh from https://gist.github.com/brandonb927/3195465
-- Dotfiles from https://github.com/atomantic/dotfiles
+- Dotfiles lib from https://github.com/atomantic/dotfiles
 - ASCII Art from https://github.com/xero/dotfiles
 - ASCII faces from https://github.com/maxogden/cool-ascii-faces
