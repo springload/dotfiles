@@ -80,6 +80,16 @@ function require_gem() {
     ok
 }
 
+function require_pip() {
+    running "pip $1"
+    if [[ $(pip list --local | grep $1 | head -1 | cut -d' ' -f1) != $1 ]];
+        then
+            action "pip install $1"
+            pip install $1
+    fi
+    ok
+}
+
 npmlist=$(npm list -g)
 function require_npm() {
     running "npm $1"
@@ -92,7 +102,29 @@ function require_npm() {
 }
 
 if [[ $packagesresponse =~ ^(y|yes|Y) ]];then
-    echo "TODO"
+
+    require_npm bower
+    require_npm browser-sync
+    require_npm browserify
+    require_npm csslint
+    require_npm grunt
+    require_npm gulp
+    require_npm jscs
+    require_npm jshint
+    require_npm nodemon
+    require_npm hyperlink
+    require_npm eslint
+    require_npm plato
+    require_npm webpack
+    require_npm jest-cli
+
+    require_gem bundler
+    require_gem rake
+    require_gem sass
+    require_gem scss-lint
+
+    require_pip virtualenv
+
 else
     ok "will skip packages.";
 fi
