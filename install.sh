@@ -34,11 +34,15 @@ running "checking Xcode CLI install"
 xcode_select="xcode-select --print-path"
 xcode_install=$($xcode_select) 2>&1 > /dev/null
 if [[ $? != 0 ]]; then
-    xcode-select --install
-    if [[ $? != 0 ]]; then
-        error "unable to install Xcode command line tools, script $0 abort!"
-        exit -1
+
+    bot "You are missing the Xcode command line tools. I'll launch the install for you, but then you'll have to restart the script."
+
+    read -r -p "Let's go? [y|N] " response
+    if [[ $response =~ ^(y|yes|Y) ]];then
+        xcode-select --install
     fi
+
+    exit -1
 fi
 ok
 
