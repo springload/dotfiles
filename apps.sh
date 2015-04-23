@@ -49,6 +49,8 @@ if [[ $everydayresponse =~ ^(y|yes|Y) ]];then
 
     require_cask google-drive
     require_cask avast
+    # This is necessary for UPM.
+    require_cask caskroom/homebrew-versions/java6
     require_cask upm
     require_cask alfred
     require_cask virtualbox
@@ -78,8 +80,6 @@ if [[ $developerresponse =~ ^(y|yes|Y) ]];then
 
     action "install brew cask packages..."
 
-    # This is necessary for PHPStorm & PyCharm.
-    require_cask caskroom/homebrew-versions/java6
     require_cask php-storm
     require_cask pycharm
     require_cask atom
