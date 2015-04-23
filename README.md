@@ -33,11 +33,32 @@ Automated Software Installation is not supported. Please have a look at the foll
 
 Automated Software Installation is not supported – but you can probably get something out of `apt-get`, and enjoy the dotfiles!
 
+## Contributing to this project
+
+> __Feel free to suggest new things to install. The more the merrier!__
+
+If you want to tinker with the bash scripts, please install [ShellCheck](https://github.com/koalaman/shellcheck) and use it to check your changes.
+
+```bash
+# Debian distribs
+apt-get install shellcheck
+# OSX
+brew install shellcheck
+
+# Run it with
+shellcheck *.sh
+
+# Its output should be empty:
+# $ shellcheck *.sh | wc -l
+#        0
+```
+
 ## See also
 
 - https://dotfiles.github.io/
 - https://boxen.github.com/
 - http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac
+- http://caskroom.io/
 
 ## Credits
 
