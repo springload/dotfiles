@@ -37,18 +37,27 @@ This will automatically install a bunch of apps for you. You will get to choose 
 
 When it's done, you can:
 
-- Delete the `dotfiles-master` folder and forget about this
-- Head over to http://caskroom.io to look for apps that might interest you, and install them with `brew cask install <name of cask>`
-- Install other things:
+- Delete the `dotfiles-master` folder and forget about this.
+- Head over to http://caskroom.io to look for apps that might interest you, and install them with `brew cask install <name of cask>`.
+- Get back to your job!
+
+### Going further
+
+#### Command-line tools
+
+Requires `brew`. The first group of tools contains `node`, `ruby` & `python` which are required to install the second group of tools.
 
 ```bash
-# Fonts
-./fonts.sh
-# Command-line tools
 ./cli.sh
 ```
 
-### Going further
+#### Fonts
+
+[Font Casks](https://github.com/caskroom/homebrew-fonts) are still experimental. Careful
+
+```bash
+./fonts.sh
+```
 
 #### OSX Preferences
 
