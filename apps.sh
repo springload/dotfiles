@@ -37,7 +37,7 @@ else
     ok "will skip Quicklook plugins.";
 fi
 
-bot "Let's go! You can probably take a walk..."
+bot "Let's go! You can probably take a walk, but make sure to check on your computer in case something needs your password."
 
 if [[ $everydayresponse =~ ^(y|yes|Y) ]];then
     action "install brew cask packages..."
