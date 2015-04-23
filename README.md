@@ -92,6 +92,15 @@ Have a look at:
 
 Have a look at https://github.com/robbyrussell/oh-my-zsh, then grab the Solarized Dark terminal themes from https://github.com/mathiasbynens/dotfiles/tree/master/init.
 
+#### IE VMs
+
+We use[IE test VMs](http://www.modern.ie/en-us/virtualization-tools) images are for [VirtualBox](https://www.virtualbox.org/).
+
+```bash
+./ie-vms.sh
+```
+
+
 ## Automated Installation on Windows `(¬_¬)`
 
 Automated Software Installation is not supported. Please have a look at the following ressources:
