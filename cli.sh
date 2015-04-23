@@ -9,8 +9,22 @@ source ./lib.sh
 
 bot "installing command-line Tools™"
 
-read -r -p "install the command-line tools? (shells, runtimes, etc) [y|N] " everydayresponse
-if [[ $everydayresponse =~ ^(y|yes|Y) ]];then
+
+read -r -p "install the command-line tools? (shells, runtimes, etc) [y|N] " commandlineresponse
+if [[ $commandlineresponse =~ ^(y|yes|Y) ]];then
+    ok "will install command-line tools."
+else
+    ok "will skip command-line tools.";
+fi
+
+read -r -p "install npm, gem, pip packages? [y|N] " packagesresponse
+if [[ $packagesresponse =~ ^(y|yes|Y) ]];then
+    ok "will install packages."
+else
+    ok "will skip packages.";
+fi
+
+if [[ $commandlineresponse =~ ^(y|yes|Y) ]];then
     require_brew coreutils
     require_brew moreutils
     require_brew findutils
@@ -54,4 +68,31 @@ if [[ $everydayresponse =~ ^(y|yes|Y) ]];then
     # require_brew casperjs
 else
     ok "will skip command-line tools.";
+fi
+
+function require_gem() {
+    running "gem $1"
+    if [[ $(gem list --local | grep $1 | head -1 | cut -d' ' -f1) != $1 ]];
+        then
+            action "gem install $1"
+            gem install $1
+    fi
+    ok
+}
+
+npmlist=$(npm list -g)
+function require_npm() {
+    running "npm $1"
+    echo $npmlist | grep $1@ > /dev/null
+    if [[ $? != 0 ]]; then
+        action "npm install -g $1"
+        npm install -g $1
+    fi
+    ok
+}
+
+if [[ $packagesresponse =~ ^(y|yes|Y) ]];then
+    echo "TODO"
+else
+    ok "will skip packages.";
 fi
