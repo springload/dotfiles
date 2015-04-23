@@ -17,6 +17,10 @@
 
 ![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)
 
+## Setting up your new Mac `(◕‿◕)`
+
+>The goal is to automate 80% of the setup of your new computer.
+
 ## Automated Installation on Windows `(¬_¬)`
 
 Automated Software Installation is not supported. Please have a look at the following ressources:
