@@ -7,7 +7,7 @@ source ./lib.sh
 #Install CLI tools using Homebrew                                             #
 ###############################################################################
 
-bot "installing command-line Tools™"
+bot "installing command-line tools"
 
 
 read -r -p "install the command-line tools? (shells, runtimes, etc) [y|N] " commandlineresponse
@@ -128,3 +128,5 @@ if [[ $packagesresponse =~ ^(y|yes|Y) ]];then
 else
     ok "will skip packages.";
 fi
+
+bot "Woot! All done."
