@@ -33,6 +33,8 @@ cd ~/Downloads/dotfiles-master
 ./install.sh
 ```
 
+![GIF recording of the install](install-recording.gif)
+
 This will automatically install a bunch of apps for you. You will get to choose what you want to install, and what you do not want.
 
 When it's done, you can:
