@@ -100,6 +100,9 @@ We use[IE test VMs](http://www.modern.ie/en-us/virtualization-tools) images are 
 ./ie-vms.sh
 ```
 
+#### Going even further – [To infinity... and beyond!](https://en.wikipedia.org/wiki/Buzz_Lightyear)
+
+Have you been through all those steps? Some things probably worked, others probably didn't. Please give us some feedback by submitting [an Issue](https://github.com/springload/dotfiles/issues) or a [Pull Request](https://github.com/springload/dotfiles/pulls).
 
 ## Automated Installation on Windows `(¬_¬)`
 
