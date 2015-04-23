@@ -37,13 +37,29 @@ This will automatically install a bunch of apps for you. You will get to choose 
 
 When it's done, you can:
 
-- Delete the `dotfiles` folder and forget about this
+- Delete the `dotfiles-master` folder and forget about this
 - Head over to http://caskroom.io to look for apps that might interest you, and install them with `brew cask install <name of cask>`
 - Install other things:
 
 ```bash
-TODO
+# Fonts
+./fonts.sh
+# Command-line tools
+./cli.sh
 ```
+
+### Going further
+
+#### OSX Preferences
+
+You can set OSX preferences by running `./osx-for-hackers.sh`. Beware, this can be dangerous!
+
+#### Alfred workflows (requires Powerpack)
+
+Have a look at:
+
+- https://github.com/zenorocha/alfred-workflows
+- https://github.com/willfarrell/alfred-workflows
 
 ## Automated Installation on Windows `(¬_¬)`
 
@@ -59,7 +75,7 @@ Automated Software Installation is not supported – but you can probably get so
 
 ## Contributing to this project
 
-> __Feel free to suggest new things to install. The more the merrier!__
+> __Feel free to [suggest new things to install](https://github.com/springload/dotfiles/pulls). The more the merrier!__
 
 If you want to tinker with the bash scripts, please install [ShellCheck](https://github.com/koalaman/shellcheck) and use it to check your changes.
 
@@ -87,6 +103,7 @@ shellcheck *.sh
 
 ## Credits
 
+- osx-for-hackers.sh from https://gist.github.com/brandonb927/3195465
 - Dotfiles from https://github.com/atomantic/dotfiles
 - ASCII Art from https://github.com/xero/dotfiles
 - ASCII faces from https://github.com/maxogden/cool-ascii-faces
