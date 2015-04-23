@@ -22,13 +22,13 @@
 >The goal is to automate __80%__ of the setup of your new computer.
 
 1. Download a ZIP of this repo. The button should on the right `------------->`
-3. Unzip and put the dotfiles repository into `/Users/<Your home directory>/`
-4. Launch the Terminal app, found in `/Applications/Utilities/`
-5. Run the following commands:
+2. Unzip the file if necessary. You should have a `dotfiles-master` folder.
+3. Launch the Terminal app, found in `/Applications/Utilities/`
+4. Run the following commands:
 
 ```bash
 # First
-cd ~/dotfiles
+cd ~/Downloads/dotfiles-master
 # Then
 ./install.sh
 ```
@@ -79,10 +79,11 @@ shellcheck *.sh
 
 ## See also
 
+- http://brew.sh/
+- http://caskroom.io/
 - https://dotfiles.github.io/
 - https://boxen.github.com/
 - http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac
-- http://caskroom.io/
 
 ## Credits
 
