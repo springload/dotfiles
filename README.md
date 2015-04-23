@@ -8,15 +8,14 @@
 ░░██████░░██████   ░░██   ░██  ░██ ███░░██████ ██████
  ░░░░░░  ░░░░░░     ░░    ░░   ░░ ░░░  ░░░░░░ ░░░░░░
 
-  ▓▓▓▓▓▓▓▓▓▓
- ░▓ about  ▓ Springload does dotfiles
- ░▓ code   ▓ https://github.com/springload/dotfiles
- ░▓▓▓▓▓▓▓▓▓▓
- ░░░░░░░░░░
+  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+ ░▓ Software Installation, Configuration and Preferences for Springload     ▓
+ ░▓ https://github.com/springload/dotfiles                                  ▓
+ ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-> Automated Software Installation, Configuration and Preferences for Springload
-
+![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)
 
 ## Automated Installation on Windows `(¬_¬)`
 
