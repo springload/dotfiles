@@ -70,11 +70,14 @@ if [[ $? != 0 ]]; then
     action "installing brew-cask"
     require_brew caskroom/cask/brew-cask
 fi
+ok
 
 # Make sure we’re using the latest Homebrew
 running "updating homebrew"
 brew update
 brew tap homebrew/versions
+brew tap caskroom/versions
+ok
 
 bot "before installing brew packages, we can upgrade any outdated packages."
 read -r -p "run brew upgrade? [y|N] " response
