@@ -78,10 +78,12 @@ if [[ $developerresponse =~ ^(y|yes|Y) ]];then
 
     action "install brew cask packages..."
 
-    require_cask sublime-text3
+    # This is necessary for PHPStorm & PyCharm.
+    require_cask caskroom/homebrew-versions/java6
     require_cask php-storm
     require_cask pycharm
     require_cask atom
+    require_cask sublime-text3
 
     require_cask iterm2
     require_cask vagrant
