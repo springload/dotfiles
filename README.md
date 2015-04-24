@@ -100,7 +100,7 @@ The `dotfiles` subfolder contains configuration for all things CLI. Those very o
 
 #### IE VMs
 
-We use[IE test VMs](http://www.modern.ie/en-us/virtualization-tools) images are for [VirtualBox](https://www.virtualbox.org/).
+We use [IE test VMs](http://www.modern.ie/en-us/virtualization-tools) images are for [VirtualBox](https://www.virtualbox.org/).
 
 ```bash
 ./ie-vms.sh
