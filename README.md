@@ -46,10 +46,12 @@ When it's done, you can:
 
 #### Command-line tools
 
+> This section requires some command-line knowledge.
+
 Requires `brew`. The first group of tools contains `node`, `ruby` & `python` which are required to install the second group of tools.
 
 ```bash
-./cli.sh
+cd ~/Downloads/dotfiles-master && ./cli.sh
 # While you're at it, set up your sites/ directory
 mkdir -p ~/Development/sites/aliases
 ```
@@ -60,10 +62,12 @@ After that, head over to http://brewformulas.org/ to find other things that you 
 
 #### Fonts
 
-[Font Casks](https://github.com/caskroom/homebrew-fonts) are still experimental. Careful
+[Font Casks](https://github.com/caskroom/homebrew-fonts) are still experimental. Careful.
+
+If you want to proceed, open the Terminal, copy and paste that line and press `Enter`:
 
 ```bash
-./fonts.sh
+cd ~/Downloads/dotfiles-master && ./fonts.sh
 ```
 
 #### OSX Preferences
@@ -71,6 +75,8 @@ After that, head over to http://brewformulas.org/ to find other things that you 
 You can set OSX preferences by using [osx-for-hackers.sh](https://gist.github.com/brandonb927/3195465). Beware, this can be dangerous!
 
 #### Apps configuration
+
+> This section requires some command-line knowledge.
 
 [Mackup](https://github.com/lra/mackup) is awesome. It uses Dropbox / Google Drive / Copy & Paste to backup your configuration for:
 
