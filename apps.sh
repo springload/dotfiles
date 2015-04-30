@@ -44,8 +44,6 @@ if [[ $everydayresponse =~ ^(y|yes|Y) ]];then
 
     require_cask firefox
     require_cask google-chrome
-    require_cask google-chrome-canary
-    require_cask opera
 
     require_cask google-drive
     require_cask avast
@@ -53,7 +51,6 @@ if [[ $everydayresponse =~ ^(y|yes|Y) ]];then
     require_cask caskroom/homebrew-versions/java6
     require_cask upm
     require_cask alfred
-    require_cask virtualbox
     require_cask skype
     require_cask slack
     require_cask harvest
@@ -85,8 +82,12 @@ if [[ $developerresponse =~ ^(y|yes|Y) ]];then
     require_cask atom
     require_cask sublime-text3
 
+    require_cask google-chrome-canary
+    require_cask opera
+
     require_cask iterm2
     require_cask vagrant
+    require_cask virtualbox
 
     require_cask imagealpha
     require_cask imageoptim
