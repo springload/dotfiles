@@ -79,17 +79,6 @@ brew tap homebrew/versions
 brew tap caskroom/versions
 ok
 
-bot "before installing brew packages, we can upgrade any outdated packages."
-read -r -p "run brew upgrade? [y|N] " response
-if [[ $response =~ ^(y|yes|Y) ]];then
-    # Upgrade any already-installed formulae
-    action "upgrade brew packages..."
-    brew upgrade
-    ok "brews updated..."
-else
-    ok "skipped brew package upgrades.";
-fi
-
 ./apps.sh
 
 bot "Woot! All done."
