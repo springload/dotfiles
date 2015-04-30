@@ -19,6 +19,8 @@ action "install Homebrew and brew cask"
 action "install all the apps that are used at Springload"
 action "if you feel like it, we will also install more things"
 
+bot "One more thing: I'll need your password from time to time."
+
 read -r -p "Let's go? [y|N] " response
 if [[ $response =~ ^(y|yes|Y) ]];then
     ok
@@ -35,7 +37,8 @@ xcode_select="xcode-select --print-path"
 xcode_install=$($xcode_select) 2>&1 > /dev/null
 if [[ $? != 0 ]]; then
 
-    bot "You are missing the Xcode command line tools. I'll launch the install for you, but then you'll have to restart the script."
+    bot "You are missing the Xcode CLI tools. I'll launch the install for you, but then you'll have to restart the process again."
+    running "After that you'll need to paste the command and press Enter again."
 
     read -r -p "Let's go? [y|N] " response
     if [[ $response =~ ^(y|yes|Y) ]];then
