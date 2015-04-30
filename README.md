@@ -30,7 +30,7 @@
 cd ~/Downloads/dotfiles-master && ./install.sh
 ```
 
-The installation process should start, and ask you questions. __If this is your first run on a fresh Mac, you'll have to start it again after the first install.__
+The installation process should start, and ask you questions. You'll also be asked to enter your password from time to time. __If this is your first run on a fresh Mac, you'll have to start it again after the first install.__
 
 ![GIF recording of the install](install-recording.gif)
 
