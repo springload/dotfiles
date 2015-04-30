@@ -21,17 +21,16 @@
 
 >The goal is to automate __80%__ of the setup of your new computer.
 
-1. Download a ZIP of this repo. The button should on the right `------------->`
-2. Unzip the file if necessary. You should have a `dotfiles-master` folder.
+1. Download a [ZIP of this repository](https://github.com/springload/dotfiles/archive/master.zip). There is a button over there `---------->`
+2. Unzip the file if necessary. You should have a `dotfiles-master` folder in your `Downloads` folder.
 3. Launch the Terminal app, found in `/Applications/Utilities/`
-4. Run the following commands:
+4. Copy and paste the following line into the Terminal, and press `Enter`:
 
 ```bash
-# First
-cd ~/Downloads/dotfiles-master
-# Then
-./install.sh
+cd ~/Downloads/dotfiles-master && ./install.sh
 ```
+
+The installation process should start, and ask you questions. __If this is your first run on a fresh Mac, you'll have to start it again after the first install.__
 
 ![GIF recording of the install](install-recording.gif)
 
