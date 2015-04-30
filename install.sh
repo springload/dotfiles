@@ -93,3 +93,5 @@ fi
 ./apps.sh
 
 bot "Woot! All done."
+bot "That's it for the automated process. If you want to do more, have a look at the Going Further section:"
+running "https://github.com/springload/dotfiles#going-further"
