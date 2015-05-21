@@ -13,8 +13,14 @@ curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/IE8_XP/
 # IE9 - Win7
 curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/IE9_Win7/IE9.Win7.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar,5.rar}"
 
+chmod +x IE9.Win7.For.MacVirtualBox.part1.sfx
+./IE9.Win7.For.MacVirtualBox.part1.sfx
+
 # IE10 - Win8
 curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/IE10_Win8/IE10.Win8.For.MacVirtualBox.part{1.sfx,2.rar,3.rar}"
+
+chmod +x IE10.Win8.For.MacVirtualBox.part1.sfx
+./IE10.Win8.For.MacVirtualBox.part1.sfx
 
 # IE11 – Win8.1
 curl -O "https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE11/Windows/IE11.Win8.1.For.Windows.VirtualBox.zip.00{1,2,3,4,5,6}"
