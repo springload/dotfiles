@@ -1,0 +1,41 @@
+{
+    "in_process_packages":
+    [
+    ],
+    "installed_packages":
+    [
+        "Alignment",
+        "Anaconda",
+        "AutoFileName",
+        "Babel",
+        "Color Highlighter",
+        "CSScomb",
+        "DocBlockr",
+        "EditorConfig",
+        "Emmet",
+        "Focus File on Sidebar",
+        "GitGutter",
+        "Handlebars",
+        "HTMLBeautify",
+        "Jinja2",
+        "JSCS-Formatter",
+        "JsFormat",
+        "Markdown Preview",
+        "MarkdownEditing",
+        "Package Control",
+        "PHP-Twig",
+        "Python Flake8 Lint",
+        "requirementstxt",
+        "Sass",
+        "SCSS",
+        "Seti_UI",
+        "SideBarEnhancements",
+        "SublimeCodeIntel",
+        "SublimeLinter",
+        "SublimeLinter-contrib-eslint",
+        "SublimeLinter-contrib-scss-lint",
+        "SublimeLinter-jscs",
+        "Text Pastry",
+        "TrailingSpaces"
+    ]
+}

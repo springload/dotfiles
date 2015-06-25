@@ -1,0 +1,54 @@
+{
+    "Seti_ClosedFolder_dots": true,
+    "Seti_ClosedFolder_remove": false,
+    "Seti_ClosedFolder_same": false,
+    "Seti_SB_big": true,
+    "Seti_SB_bright": false,
+    "Seti_SB_med": true,
+    "Seti_blue_tab_label": true,
+    "Seti_in_4_a_treat": false,
+    "Seti_no_bar_undertabs": true,
+    "Seti_no_blue_bar": false,
+    "Seti_orange_button": true,
+    "Seti_orange_label": true,
+    "Seti_rainbow": false,
+    "Seti_sb_big_padding": false,
+    "Seti_sb_small_padding": true,
+    "Seti_sb_tree_med": true,
+    "Seti_sb_tree_small": true,
+    "Seti_sb_wild": false,
+    "Seti_tabs_small": true,
+
+    "caret_extra_bottom": 3,
+    "caret_extra_top": 3,
+    "caret_extra_width": 2,
+    "color_scheme": "Packages/User/Monokai Phoenix (SL) (Flake8Lint).tmTheme",
+    "folder_exclude_patterns":
+    [
+        ".svn",
+        ".git",
+        ".hg",
+        "CVS",
+        "node_modules",
+        "build",
+        "dist",
+        ".sass-cache",
+        "env",
+        ".githooks",
+        ".vagrant",
+        "__pycache__",
+        "tmp"
+    ],
+    "font_face": "Source Code Pro",
+    "font_size": 16,
+    "highlight_line": true,
+    "ignored_packages":
+    [
+        "Markdown",
+        "Vintage"
+    ],
+    "overlay_scroll_bars": "enabled",
+    "scroll_past_end": true,
+    "theme": "Seti.sublime-theme",
+    "word_wrap": false
+}

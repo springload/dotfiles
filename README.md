@@ -127,6 +127,16 @@ Automated Software Installation is not supported. Please have a look at the foll
 
 Automated Software Installation is not supported – but you can probably get something out of `apt-get`, and enjoy the dotfiles!
 
+## Software configuration
+
+### Sublime Text 3
+
+> You will need [Package Control](https://packagecontrol.io/). You may also need a nice font, like [Source Code Pro](https://github.com/adobe-fonts/source-code-pro).
+
+Have a look at the default configuration and the list of packages in [`config/sublime`](https://github.com/springload/dotfiles/tree/master/config/sublime).
+
+To install the packages, open your Command Palette _(Cmd+Maj+P)_, type `Browse packages` and go edit the file `Packages/User/Package Control.sublime-settings`.
+
 ## Contributing to this project
 
 > __Feel free to [suggest new things to install](https://github.com/springload/dotfiles/pulls). The more the merrier!__
