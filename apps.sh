@@ -77,7 +77,7 @@ if [[ $developerresponse =~ ^(y|yes|Y) ]];then
 
     action "install brew cask packages..."
 
-    require_cask php-storm
+    require_cask phpstorm
     require_cask pycharm
     require_cask atom
     require_cask sublime-text3

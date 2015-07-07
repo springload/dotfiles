@@ -59,7 +59,6 @@ function require_cask() {
         brew cask install $1
         if [[ $? != 0 ]]; then
             error "failed to install $1! aborting..."
-            exit -1
         fi
     fi
     ok
