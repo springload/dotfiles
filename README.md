@@ -21,7 +21,7 @@
 
 >The goal is to automate __80%__ of the setup of your new computer.
 
-1. Download a [ZIP of this repository](https://github.com/springload/dotfiles/archive/master.zip). There is a button over there `---------->`
+1. Download a [ZIP of this repository](https://github.com/springload/dotfiles/archive/master.zip).
 2. Unzip the file if necessary. You should have a `dotfiles-master` folder in your `Downloads` folder.
 3. Launch the Terminal app, found in `/Applications/Utilities/`
 4. Copy and paste the following line into the Terminal, and press `Enter`:
