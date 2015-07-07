@@ -5,6 +5,9 @@ echo -en "Preparing world domination...\n"
 # Include Adam Eivy's library helpers.
 source ./lib.sh
 
+# Prevent sleep while install is running
+caffeinate &
+
 #####
 # Introduction
 #####
