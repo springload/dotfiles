@@ -106,17 +106,15 @@ if [[ $packagesresponse =~ ^(y|yes|Y) ]];then
     require_npm bower
     require_npm browser-sync
     require_npm browserify
+    require_npm webpack
+    require_npm nodemon
     require_npm csslint
     require_npm grunt
     require_npm gulp
     require_npm jscs
     require_npm jshint
-    require_npm nodemon
     require_npm hyperlink
     require_npm eslint
-    require_npm plato
-    require_npm webpack
-    require_npm jest-cli
 
     require_gem bundler
     require_gem rake
