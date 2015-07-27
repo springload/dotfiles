@@ -113,8 +113,13 @@ if [[ $packagesresponse =~ ^(y|yes|Y) ]];then
     require_npm gulp
     require_npm jscs
     require_npm jshint
-    require_npm hyperlink
     require_npm eslint
+    require_npm eslint-plugin-react
+    require_npm babel-eslint
+    require_npm sitespeed.io
+    require_npm hyperlink
+    require_npm csscomb
+    require_npm disc
 
     require_gem bundler
     require_gem rake
