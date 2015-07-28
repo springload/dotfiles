@@ -135,7 +135,7 @@ Automated Software Installation is not supported – but you can probably get so
 
 Have a look at the default configuration and the list of packages in [`config/sublime`](https://github.com/springload/dotfiles/tree/master/config/sublime).
 
-To install the packages, open your Command Palette _(Cmd+Maj+P)_, type `Browse packages` and go edit the file `Packages/User/Package Control.sublime-settings`.
+To install the packages, open your Command Palette _(Cmd+Maj+P)_, type `Browse packages` and go edit the file `Packages/User/Package Control.sublime-settings`. Save the file, and restart Sublime Text.
 
 ## Contributing to this project
 
