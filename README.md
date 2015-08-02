@@ -97,7 +97,7 @@ Have a look at:
 
 #### Shell pimping
 
-Have a look at https://github.com/robbyrussell/oh-my-zsh, then grab the Solarized Dark terminal themes from https://github.com/altercation/solarized.
+Have a look at https://github.com/robbyrussell/oh-my-zsh, then grab a terminal theme from https://github.com/mbadolato/iTerm2-Color-Schemes.olarized.
 
 #### Dotfiles
 
