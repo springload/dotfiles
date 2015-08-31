@@ -24,3 +24,6 @@ chmod +x IE10.Win8.For.MacVirtualBox.part1.sfx
 
 # IE11 – Win8.1
 curl -O "https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE11/Windows/IE11.Win8.1.For.Windows.VirtualBox.zip.00{1,2,3,4,5,6}"
+
+# Microsoft Edge - Win10
+curl -O "https://az792536.vo.msecnd.net/vms/VMBuild_20150801/VirtualBox/MSEdge/Mac/Microsoft%20Edge.Win10.For.Mac.VirtualBox.zip.00{1,2,3,4,5,6}"
