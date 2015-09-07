@@ -137,6 +137,10 @@ Have a look at the default configuration and the list of packages in [`config/su
 
 To install the packages, open your Command Palette _(Cmd+Maj+P)_, type `Browse packages` and go edit the file `Packages/User/Package Control.sublime-settings`. Save the file, and restart Sublime Text.
 
+## Further documentation
+
+> Have a look into our [`docs` subfolder!](https://github.com/springload/dotfiles/blob/master/docs/)
+
 ## Contributing to this project
 
 > __Feel free to [suggest new things to install](https://github.com/springload/dotfiles/pulls). The more the merrier!__
