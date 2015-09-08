@@ -88,6 +88,7 @@ if [[ $developerresponse =~ ^(y|yes|Y) ]];then
     require_cask iterm2
     require_cask vagrant
     require_cask virtualbox
+    require_cask ngrok
 
     require_cask imagealpha
     require_cask imageoptim
