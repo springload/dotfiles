@@ -137,6 +137,8 @@ Have a look at the default configuration and the list of packages in [`config/su
 
 To install the packages, open your Command Palette _(Cmd+Maj+P)_, type `Browse packages` and go edit the file `Packages/User/Package Control.sublime-settings`. Save the file, and restart Sublime Text.
 
+Once this is all done, you will want to use Babel Sublime for your JavaScript syntax highlighting. [Here's how to](https://github.com/babel/babel-sublime#setting-as-the-default-syntax).
+
 ## Further documentation
 
 > Have a look into our [`docs` subfolder!](https://github.com/springload/dotfiles/blob/master/docs/)
