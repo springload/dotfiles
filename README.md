@@ -53,7 +53,7 @@ Requires `brew`. The first group of tools contains `node`, `ruby` & `python` whi
 ```bash
 cd ~/Downloads/dotfiles-master && ./cli.sh
 # While you're at it, set up your sites/ directory
-mkdir -p ~/Development/sites/aliases
+mkdir -p ~/Development/sites/
 ```
 
 While you're waiting for this to finish, go [generate your SSH keys](https://help.github.com/articles/generating-ssh-keys/).
