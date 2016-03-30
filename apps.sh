@@ -23,7 +23,7 @@ else
     ok "will skip designer tools.";
 fi
 
-read -r -p "install the developer tools? (iTerm2, Sublime Text, etc) [y|N] " developerresponse
+read -r -p "install the developer tools? (iTerm, Sublime Text, etc) [y|N] " developerresponse
 if [[ $developerresponse =~ ^(y|yes|Y) ]];then
     ok "will install developer tools."
 else
@@ -55,6 +55,7 @@ if [[ $everydayresponse =~ ^(y|yes|Y) ]];then
     require_cask google-hangouts
     require_cask slack
     require_cask harvest
+    require_cask vlc
 
     ok "casks installed..."
 else
@@ -90,6 +91,7 @@ if [[ $developerresponse =~ ^(y|yes|Y) ]];then
     require_cask vagrant
     require_cask virtualbox
     require_cask ngrok
+    require_cask screenhero
 
     require_cask imagealpha
     require_cask imageoptim
