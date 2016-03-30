@@ -89,19 +89,33 @@ ok
 
 bot "Woot! All done. If you want to go further, here are some options:"
 
-read -r -p "install extra development command-line tools? (node, curl, etc) [y|N] " cliresponse
-if [[ $cliresponse =~ ^(y|yes|Y) ]];then
+read -r -p "install extra development command-line tools? (node, curl, etc) [y|N] " cli_response
+if [[ $cli_response =~ ^(y|yes|Y) ]];then
     ok "will install command-line tools."
 else
     ok "will skip command-line tools.";
 fi
 
-if [[ $cliresponse =~ ^(y|yes|Y) ]];then
+read -r -p "create our development folder structure (~/Development/sites)? [y|N] " dev_folder_response
+if [[ $dev_folder_response =~ ^(y|yes|Y) ]];then
+    ok "will create the folder structure."
+else
+    ok "will skip folder structure.";
+fi
+
+if [[ $cli_response =~ ^(y|yes|Y) ]];then
     ./cli.sh
 else
     ok "skipped command-line tools.";
 fi
 
+if [[ $cli_response =~ ^(y|yes|Y) ]];then
+    mkdir -p ~/Development/sites/
+
+    ok "Created ~/Development/sites/"
+else
+    ok "skipped development folder structure.";
+fi
 
 bot "That's it for the automated process. If you want to do more, have a look at the Going Further section:"
 running "https://github.com/springload/dotfiles#going-further"
