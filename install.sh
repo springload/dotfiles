@@ -119,3 +119,8 @@ fi
 
 bot "That's it for the automated process. If you want to do more, have a look at the Going Further section:"
 running "https://github.com/springload/dotfiles#going-further"
+
+bot "Here are the most useful resources. Have fun!"
+running "OSX preferences for hackers: https://github.com/springload/dotfiles#osx-preferences"
+running "Mac apps configuration with Mackup: https://github.com/springload/dotfiles#apps-configuration"
+running "Dotfiles: https://github.com/springload/dotfiles#dotfiles"
