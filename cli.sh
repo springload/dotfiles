@@ -10,11 +10,11 @@ source ./lib.sh
 bot "installing command-line tools"
 
 
-read -r -p "install the command-line tools? (shells, wget, etc) [y|N] " commandlineresponse
-if [[ $commandlineresponse =~ ^(y|yes|Y) ]];then
-    ok "will install command-line tools."
+read -r -p "install the UNIX tools? (shells, wget, etc) [y|N] " unixresponse
+if [[ $unixresponse =~ ^(y|yes|Y) ]];then
+    ok "will install UNIX tools."
 else
-    ok "will skip command-line tools.";
+    ok "will skip UNIX tools.";
 fi
 
 read -r -p "install runtimes? (node, python, etc) [y|N] " runtimesresponse
@@ -31,7 +31,7 @@ else
     ok "will skip packages.";
 fi
 
-if [[ $commandlineresponse =~ ^(y|yes|Y) ]];then
+if [[ $unixresponse =~ ^(y|yes|Y) ]];then
     require_brew coreutils
     require_brew moreutils
     require_brew findutils
