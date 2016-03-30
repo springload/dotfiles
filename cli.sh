@@ -32,6 +32,8 @@ else
 fi
 
 if [[ $unixresponse =~ ^(y|yes|Y) ]];then
+    action "install brew packages..."
+
     require_brew coreutils
     require_brew moreutils
     require_brew findutils
@@ -55,19 +57,25 @@ if [[ $unixresponse =~ ^(y|yes|Y) ]];then
     require_brew unzip
     require_brew rsync
     require_brew cloc
+
+    ok "packages installed..."
 else
-    ok "will skip command-line tools.";
+    ok "skipped command-line tools.";
 fi
 
 if [[ $runtimesresponse =~ ^(y|yes|Y) ]];then
+    action "install brew packages..."
+
     require_brew node
     require_brew ruby
     require_brew python
     require_brew python3
 
     require_brew mysql
+
+    ok "packages installed..."
 else
-    ok "will skip runtimes.";
+    ok "skipped runtimes.";
 fi
 
 function require_gem() {
@@ -102,6 +110,7 @@ function require_npm() {
 }
 
 if [[ $packagesresponse =~ ^(y|yes|Y) ]];then
+    action "install npm / gem / pip packages..."
 
     require_npm bower
     require_npm browser-sync
@@ -128,8 +137,9 @@ if [[ $packagesresponse =~ ^(y|yes|Y) ]];then
 
     require_pip virtualenv
 
+    ok "packages installed..."
 else
-    ok "will skip packages.";
+    ok "skipped packages.";
 fi
 
 bot "Woot! All done."
