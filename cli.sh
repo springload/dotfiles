@@ -10,11 +10,18 @@ source ./lib.sh
 bot "installing command-line tools"
 
 
-read -r -p "install the command-line tools? (shells, runtimes, etc) [y|N] " commandlineresponse
+read -r -p "install the command-line tools? (shells, wget, etc) [y|N] " commandlineresponse
 if [[ $commandlineresponse =~ ^(y|yes|Y) ]];then
     ok "will install command-line tools."
 else
     ok "will skip command-line tools.";
+fi
+
+read -r -p "install runtimes? (node, python, etc) [y|N] " runtimesresponse
+if [[ $runtimesresponse =~ ^(y|yes|Y) ]];then
+    ok "will install runtimes."
+else
+    ok "will skip runtimes.";
 fi
 
 read -r -p "install npm, gem, pip packages? [y|N] " packagesresponse
@@ -48,7 +55,11 @@ if [[ $commandlineresponse =~ ^(y|yes|Y) ]];then
     require_brew unzip
     require_brew rsync
     require_brew cloc
+else
+    ok "will skip command-line tools.";
+fi
 
+if [[ $runtimesresponse =~ ^(y|yes|Y) ]];then
     require_brew node
     require_brew ruby
     require_brew python
@@ -56,7 +67,7 @@ if [[ $commandlineresponse =~ ^(y|yes|Y) ]];then
 
     require_brew mysql
 else
-    ok "will skip command-line tools.";
+    ok "will skip runtimes.";
 fi
 
 function require_gem() {
