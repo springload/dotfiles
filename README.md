@@ -162,9 +162,7 @@ apt-get install shellcheck
 # OSX
 brew install shellcheck
 
-# Run it with
-npm run test
-# Or shellcheck *.sh if you're not into npm
+shellcheck *.sh
 
 # Its output should be empty:
 # $ shellcheck *.sh | wc -l
