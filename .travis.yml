@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+  - '4'
+
+before_script:
+  - sudo add-apt-repository -y "deb http://mirrors.kernel.org/ubuntu utopic main universe"
+  - sudo apt-get -y update
+  - sudo apt-get -y install shellcheck
+
+script:
+  - npm run test
+
+notifications:
+  email: false

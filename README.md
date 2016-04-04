@@ -13,7 +13,7 @@
  ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 ```
 
-[![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)](http://www.springload.co.nz/)
+[![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)](http://www.springload.co.nz/) [![Build Status](https://img.shields.io/travis/springload/dotfiles.svg?style=flat-square)](https://travis-ci.org/springload/dotfiles)
 
 ## Setting up your new Mac `(◕‿◕)`
 
