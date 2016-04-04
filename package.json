@@ -1,0 +1,21 @@
+{
+  "name": "dotfiles",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Software Installation, Configuration and Preferences for Springload",
+  "main": "install.sh",
+  "scripts": {
+    "test": "shellcheck *.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/springload/dotfiles.git"
+  },
+  "keywords": [],
+  "author": "Springload",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/springload/dotfiles/issues"
+  },
+  "homepage": "https://github.com/springload/dotfiles#readme"
+}

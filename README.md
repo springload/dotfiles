@@ -163,7 +163,8 @@ apt-get install shellcheck
 brew install shellcheck
 
 # Run it with
-shellcheck *.sh
+npm run test
+# Or shellcheck *.sh if you're not into npm
 
 # Its output should be empty:
 # $ shellcheck *.sh | wc -l
