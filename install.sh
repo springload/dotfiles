@@ -39,7 +39,6 @@ running "checking Xcode CLI install"
 xcode_select="xcode-select --print-path"
 xcode_install=$($xcode_select) 2>&1 > /dev/null
 if [[ $? != 0 ]]; then
-
     bot "You are missing the Xcode CLI tools. I'll launch the install for you, but then you'll have to restart the process again."
     running "After that you'll need to paste the command and press Enter again."
 

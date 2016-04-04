@@ -80,20 +80,20 @@ fi
 
 function require_gem() {
     running "gem $1"
-    if [[ $(gem list --local | grep $1 | head -1 | cut -d' ' -f1) != $1 ]];
+    if [[ $(gem list --local | grep "$1" | head -1 | cut -d' ' -f1) != "$1" ]];
         then
             action "gem install $1"
-            gem install $1
+            gem install "$1"
     fi
     ok
 }
 
 function require_pip() {
     running "pip $1"
-    if [[ $(pip list --local | grep $1 | head -1 | cut -d' ' -f1) != $1 ]];
+    if [[ $(pip list --local | grep "$1" | head -1 | cut -d' ' -f1) != "$1" ]];
         then
             action "pip install $1"
-            pip install $1
+            pip install "$1"
     fi
     ok
 }
@@ -101,10 +101,10 @@ function require_pip() {
 npmlist=$(npm list -g)
 function require_npm() {
     running "npm $1"
-    echo $npmlist | grep $1@ > /dev/null
+    echo "$npmlist" | grep "$1@" > /dev/null
     if [[ $? != 0 ]]; then
         action "npm install -g $1"
-        npm install -g $1
+        npm install -g "$1"
     fi
     ok
 }
