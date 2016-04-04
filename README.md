@@ -42,6 +42,17 @@ When it's done, you can:
 
 ### Going further
 
+|:book:|
+|-----------------------------------------|
+|[Command-line tools](#command-line-tools)|
+|[Fonts](#fonts)|
+|[OSX Preferences](#osx-preferences)|
+|[Alfred workflows (requires Powerpack)](#alfred-workflows-requires-powerpack)|
+|[Shell pimping](#shell-pimping)|
+|[Dotfiles](#dotfiles)|
+|[IE VMs](#ie-vms)|
+|[Sublime Text configuration](#sublime-text-3)|
+
 #### Command-line tools
 
 > This section requires some command-line knowledge.
