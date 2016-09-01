@@ -244,3 +244,10 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+auto-ls () {
+	emulate -L zsh;
+	# explicit sexy ls'ing as aliases arent honored in here.
+	hash gls >/dev/null 2>&1 && CLICOLOR_FORCE=1 gls -aFh --color --group-directories-first || ls
+}
+chpwd_functions=( auto-ls $chpwd_functions )
