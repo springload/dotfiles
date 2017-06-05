@@ -52,6 +52,7 @@ When it's done, you can:
 |[Dotfiles](#dotfiles)|
 |[IE VMs](#ie-vms)|
 |[Sublime Text configuration](#sublime-text-3)|
+|[Visual Studio Code configuration](/config/visual-studio-code/)|
 
 #### Command-line tools
 
