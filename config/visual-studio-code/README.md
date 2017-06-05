@@ -18,6 +18,7 @@ Please feel free to add your config file as `[YOUR_NAME]-config.json`
 - “Babel ES6/ES7”: Syntax coloring for ES6
 - “ESLint”: Linting directly in VSC
 - “jsx”: Support for JSX in VSC
+- "npm": This extension supports running npm scripts defined in the package.json file and validating the installed modules against the dependencies defined in the package.json.
 - “npm intelliSense”: Auto complete for packages from package.json
 - “React Redux ES6 Snippets”: creates containers/stateless components/reducers/etc skeletons directly for you
 - “Autolinting for Javascript”: Automatically activates the correct linting for your project
