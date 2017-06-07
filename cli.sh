@@ -137,6 +137,22 @@ if [[ $packagesresponse =~ ^(y|yes|Y) ]];then
 
     require_pip virtualenv
 
+    # Ideally should check if command is already available
+    # require_curl [COMMAND] [URL]
+    function require_curl() {
+        running "curl $1"
+        curl --output /dev/null --silent --head --fail "$2"
+        if [[ $? -eq 0 ]]; then
+            action "curl $2 | bash"
+            curl -o- "$2" | sh
+            ok "Close and reopen your terminal to start using nvm"
+        else 
+            error "Could not install $1"
+        fi
+    }
+    
+    require_curl nvm https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh
+
     ok "packages installed..."
 else
     ok "skipped packages.";

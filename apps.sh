@@ -83,6 +83,7 @@ if [[ $developerresponse =~ ^(y|yes|Y) ]];then
     require_cask pycharm
     require_cask atom
     require_cask sublime-text3
+    require_cask visual-studio-code
 
     require_cask google-chrome-canary
     require_cask opera
