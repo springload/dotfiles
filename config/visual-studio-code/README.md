@@ -9,6 +9,7 @@ Please feel free to add your config file as `[YOUR_NAME]-config.json`
 - CMD + , => Settings
 - CMD + P => Look for a file across the project
 - CMD + F => Find in the file
+- CMD + SHIFT + F => Find in all files
 - Select text then CMD + D => Will search and select same text across file so you can modify all of them at once.
 - ALT + UP (or DOWN) => Move line up/down
 
