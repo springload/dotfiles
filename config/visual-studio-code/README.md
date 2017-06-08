@@ -34,3 +34,9 @@ Please feel free to add your config file as `[YOUR_NAME]-config.json`
 
 ### General
 - “Seti-icons”: beautiful icons for file explorer
+
+### TO BE IMPLEMENTED
+- mohsen1.prettify-json
+- cssho.vscode-svgviewer
+- Zignd.html-css-class-completion
+- 
