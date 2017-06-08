@@ -36,6 +36,7 @@ Please feel free to add your config file as `[YOUR_NAME]-config.json`
 - “Seti-icons”: beautiful icons for file explorer
 
 ### TO BE IMPLEMENTED
+- xabikos.reactsnippets
 - mohsen1.prettify-json
 - cssho.vscode-svgviewer
 - Zignd.html-css-class-completion
