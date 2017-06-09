@@ -76,8 +76,7 @@
     "markdownlint.config": {
         "MD003": false,
         "MD013": false,
-        "MD024": false,
-        "MD034": false
+        "MD024": false
     },
     "workbench.editor.enablePreview": false,
     "workbench.editor.showIcons": false,
