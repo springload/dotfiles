@@ -1,6 +1,6 @@
 # Visual Studio Code tricks&tips
 
-Please feel free to add your config file as `[YOUR_NAME]-config.json`
+> Have a look at our default config in [`settings.json`](settings.json).
 
 ## Use of the install script
 
