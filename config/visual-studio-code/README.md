@@ -70,8 +70,6 @@ You will need to restart your Visual Studio Code for all the above to take effec
 ### HTML
 
 - "HTML Snippets"
-- "IntelliSense for CSS class names": provides CSS class name completion
-- "IntelliSense for CSS class names": provides CSS class name completion
 
 ### General
 - “Seti-icons”: beautiful icons for file explorer
