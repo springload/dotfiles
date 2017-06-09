@@ -137,11 +137,15 @@ Automated Software Installation is not supported – but you can probably get so
 
 ## Software configuration
 
+### Visual Studio Code
+
+Have a look at our resources in [`config/visual-studio-code`](config/visual-studio-code).
+
 ### Sublime Text 3
 
 > You will need [Package Control](https://packagecontrol.io/). You may also need a nice font, like [Source Code Pro](https://github.com/adobe-fonts/source-code-pro).
 
-Have a look at the default configuration and the list of packages in [`config/sublime`](https://github.com/springload/dotfiles/tree/master/config/sublime).
+Have a look at the default configuration and the list of packages in [`config/sublime`](config/sublime).
 
 To install the packages, open your Command Palette _(Cmd+Maj+P)_, type `Browse packages` and go edit the file `Packages/User/Package Control.sublime-settings`. Save the file, and restart Sublime Text.
 
