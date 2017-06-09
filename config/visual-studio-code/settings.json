@@ -79,7 +79,6 @@
         "MD024": false
     },
     "workbench.editor.enablePreview": false,
-    "workbench.editor.showIcons": false,
     "workbench.editor.openPositioning": "right",
     "workbench.sideBar.location": "left",
     "html.format.wrapLineLength": 0,
