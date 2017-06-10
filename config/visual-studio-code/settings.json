@@ -40,7 +40,6 @@
         "**/.vagrant": true,
         "**/.venv": true,
         "**/.virtualenv": true,
-        "**/.vscode": true,
         "**/__pycache__": true,
         "**/_build": true,
         "**/_deploy": true,
