@@ -55,6 +55,7 @@ You will need to restart your Visual Studio Code for all the above to take effec
 - “React Redux ES6 Snippets”: creates containers/stateless components/reducers/etc skeletons directly for you
 - “Autolinting for Javascript”: Automatically activates the correct linting for your project
 - "React Code Snippets"
+- "Javascript Console Utils": Quick keys for adding/removing console.logs 
 
 
 ### CSS

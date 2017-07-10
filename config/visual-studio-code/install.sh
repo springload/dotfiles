@@ -27,6 +27,7 @@ if [[ $? -eq 0 ]];then
         code --install-extension mrmlnc.vscode-scss
         code --install-extension cssho.vscode-svgviewer
         code --install-extension bogdan-sinitsa.theme-dark-monokai
+        code --install-extension whtouche.vscode-js-console-utils
 
         ok "Extensions for VSC have been installed. Please restart your VSC."
     else
